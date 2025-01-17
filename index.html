@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="lav singh">
+        <meta name="description" content="my first web page which is designed and learned to develope in one day">
+
+        <title>KUSH SINGH</title>
+        <link rel="icon" href="botjii.png" type="image/png">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <nav aria-label="main navigation">
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li> 
+                <li>
+                    <a href="#Journey">Journey</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+    <article id="about">
+        <h1>KUSH SINGH</h1>
+        <figure>
+            <img src="img/botjii.png" alt="pic" title="botjii" width="200" height="200" loading="lazy">
+            <figcaption>Botjii</figcaption>
+        </figure>
+        <hr>
+        <header>
+            <h2>What am i doing??</h2>
+                <ol>
+                    <li>MBBS</li>
+                    <li>First year student</li>
+                    <li>subjects like anatomy, physiology, biochemistry, community medicine, and introduction to health profession</li>
+                </ol>
+        </header>
+        <aside>
+            <details>
+                <summary>what is MBBS</summary> 
+                <p>mbbs is a bachelor of medicine and bachelor of surgery</p>
+            </details>
+        </aside>
+        <div>
+            <span>
+               
+            </span>
+        </div>
+
+        <h3>From where</h3>
+        <br>
+        <img src="img/gsvm.jpg" alt="gsvm" title="gsvm college picture" width="900" height="500" loading="eager">
+        <p><abbr title="ganesh sankar vidyarthi"><a href="https://gsvmmedicalcollege.com/"> GSVM</a></abbr></p>
+        <address>
+            kanpur
+            <br>
+            uttar pradesh
+        </address>
+
+    </article>
+
+        <hr>
+
+    <article id="Journey">
+        <h2>How it started</h2>
+        <dl>
+            <dt>NEET</dt>
+            <dd>national eligibility cum entrance test</dd>
+            <dt>purpose</dt>
+            <dd>to get admission in medical college</dd>
+        </dl>
+        <h3>my journey</h3>
+        <ul>
+            <li><p>I went to <em>Kota for neet preparation</em></p></li>
+            <li><p>I studied there for 2 years</p></li>
+        </ul>
+
+        <table>
+            <caption><mark><b>My journey</b></mark></caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Event</th>
+                            <th scope="col">result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> <time datetime="2022">2022</time></td>
+                        <td> 10th board</td>
+                        <td> 94 percent</td>
+                    </tr>
+               
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <time datetime="2022">2022</time>
+                        </td>
+                        <td>
+                            went to kota
+                        </td>
+                        <td>
+                            Avg around 650
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th scope="row">3</th>
+                        <td >
+                            <time datetime="2024">2024-</time>
+                        </td>
+                        <td>
+                            12th board
+                        </td>
+                        <td>
+                            91 percent
+                        </td>
+                    </tr>
+               
+                    <tr>
+                        <th scope="row">4</th>
+                        <td rowspan="2">
+                            <time datetime="2024">2024-</time></td>
+                        <td value="neet">
+                            NEET
+                        </td>
+                        <td>
+                            683 marks
+                        </td>
+                    </tr>
+               
+                <tr>
+                    <th scope="row">5</th>
+                        
+                        <td>
+                            Admission in gsvm
+                        </td>
+                        <td>
+                            <a href="https://gsvmmedicalcollege.com/">GSVM</a>
+                        </td>
+                   
+                 </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">continued.....</td>
+                    </tr>
+                </tfoot>
+        </table>
+            
+    </article>
+    
+    <figure>
+        <video  controls autoplay loop>
+            <source src="img/game.mp4" type="video/mp4">
+            video not loaded
+        </video>
+    </figure>
+
+    <article id="Contact">
+        <h2>Contact</h2>
+        <p>you can contact me on </p>
+        <form action="https://httpbin.org/get" method="get"> 
+
+           <fieldset>
+            <legend>About</legend>
+                <p>
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" name="FirstName" id="FirstName" placeholder="king" required autofocus autocomplete="on">
+                </p>
+                <p>
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" name="LastName" id="LastName" placeholder="kong" required autocomplete="on">
+                </p>
+                <p>
+                    <label for="Password">Password:</label>
+                    <input type="password" name="Password" id="Password" placeholder="Your secret" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone"  placeholder="123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required autocomplete="on">
+                </p>
+                <p>
+                    <label for="DOB">DOB</label>
+                    <input type="number" name="DOB" id="DOB" step="1" min="1950" max="2025" value="2002" required>
+                </p>
+                <p>
+                    <label for="Favorite_city">Favorite_city</label>
+                    <select name="Favorite_city" id="Favorite_city" multiple size="5">
+                        <optgroup label="home">
+                            <option value="Majhari">Majhari</option>
+                            <option value="Balrampur" selected>Balrampur</option>
+                        </optgroup>
+                        <optgroup label="Study place">
+                            <option value="Kota">Kota</option>
+                            <option value="Kanpur">Kanpur</option>
+                        </optgroup>
+                        <option value="other">other</option>    
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Current city</legend>
+                <p>
+                    <input type="radio" name="city" id="blp" value="blp">
+                    <label for="blp">blp</label>
+                </p>
+                <p>
+                    <input type="radio" name="city" id="kp" value="kp">
+                    <label for="kp">kp</label>
+                </p>
+                <p>
+                    <input type="radio" name="city" id="lko" value="lko">
+                    <label for="lko">lko</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Nicknames</legend>
+                <p>
+                    <input type="checkbox" name="nicknames" id="kush" value="kush">
+                    <label for="kush">kush</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="nicknames" id="kallu" value="kallu">
+                    <label for="kallu">kallu</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="Botjii" id="Botjii" value="Botjii">
+                    <label for="Botjii">Botjii</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Write a note</legend>
+                <p>
+                    <label for="message">message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="write ur note here"></textarea>
+                </p>
+                <p>
+                    <label for="city">Choose a City:</label>
+<input list="cities" id="city" name="city">
+<datalist id="cities">
+    <option value="Kanpur">
+    <option value="Kota">
+    <option value="Lucknow">
+    <option value="Delhi">
+    <option value="Mumbai">
+</datalist>
+                </p>
+            </fieldset>
+            <style>
+              .s{
+               
+               background-color: red;
+               color: white;
+               border:none;
+               width: 50px;
+               height: 36px;
+               border-radius: 2px;
+               cursor: pointer;
+              }
+      </style>
+            <button type="submit" class="s">submit</button>
+            <button type="reset" id="r">reset</button>   
+        </form>
+    </article>
+
+</main>
+<footer>
+        <h3>what after</h3>
+        <p>I had given neet paper</p>
+        <p>It happed on <strong>5th of may</strong></p>
+        <hr>
+        &lt;&lt;&lt;&copy;<a href="about.html">Lav singh</a>&gt;&gt;&gt;
+        <br>
+        <a href="#">back to top</a>
+</footer>
+
+    </body>   
+
+</html> 

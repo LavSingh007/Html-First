@@ -1,0 +1,36 @@
+
+html {
+    font-size: 22px
+    }
+    body {
+                        background-color: #333;
+            color : whitesmoke;
+        }
+     a{
+        color:pink
+     }
+     a:visited {
+        color: red;
+     }
+     a:hover {
+        color: whitesmoke;
+     }
+     table,tr,th,td,caption {
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+        background-color: #333;
+        color: whitesmoke;
+     }
+     <style>
+              .s{
+               width: 36px;
+               height: 20px;
+               background-color: red;
+               color: white;
+               border:none;
+               border-radius: 2px;
+               cursor: pointer;
+              }
+      </style>
